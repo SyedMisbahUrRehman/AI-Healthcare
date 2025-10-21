@@ -1,0 +1,23 @@
+# === Core ===
+flask
+python-dotenv
+requests
+joblib
+
+# === LangChain + Components ===
+langchain
+langchain-community
+langchain-groq
+sentence-transformers
+chromadb
+faiss-cpu
+tiktoken
+
+# === Environment / Vectorization ===
+huggingface-hub
+transformers
+
+# === Email and Utils ===
+email-validator
+
+bs4
