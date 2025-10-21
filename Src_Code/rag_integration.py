@@ -2,7 +2,9 @@
 
 import os
 from dotenv import load_dotenv
-from langchain.document_loaders import WebBaseLoader
+# from langchain.document_loaders import WebBaseLoader
+from langchain_community.document_loaders import WebBaseLoader
+
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 from langchain.embeddings import HuggingFaceEmbeddings
